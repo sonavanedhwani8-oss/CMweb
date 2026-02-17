@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+    /* Cute pastel background */
+    background: linear-gradient(135deg, #e0c3fc, #fbc2eb);
+
+    /* Center everything */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background: white;
+    width: 320px;
+    padding: 30px;
+    border-radius: 18px;
+    text-align: center;
+
+    /* Soft shadow = cute floating effect */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+.card h1 {
+    margin-bottom: 25px;
+    color: #5e3370;
+}
+label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #555;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+input:focus {
+    outline: none;
+    border-color: #b07cc6;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #732d91;
+}
+.result {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #f4e9fb;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #5e3370;
+}
